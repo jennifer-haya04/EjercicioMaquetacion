@@ -1,0 +1,106 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: midnightblue;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*a*/
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align:center;
+    justify-content: center center;
+}
+
+/*Header*/
+
+.header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;
+    margin-bottom: 1rem;
+    filter: brightness(50%);
+}
+
+
+.img-logo{
+    width: 15rem;
+}
+
+.logoHeader {
+    padding: 4rem;
+    justify-content: center center;
+    text-align: center;
+    color: white;
+}
+
+.navegacion{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin: 1rem;
+}
+.navegacion a {
+    font-size: 2.4rem;
+    display: block;
+    color: white;
+}
+
+.contenedor {
+    width: inherit;
+    margin: 1rem;
+    justify-content:center;
+    
+}
+
+.agendas {
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+}
+
+.agenda {
+    flex-direction: column;
+    align-items: center;
+    background-color: silver;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.agenda p {
+    text-align: center;
+}
+
+.agenda h1 {
+    color: palevioletred;
+    margin: 0.5rem;
+}
+
+
+.footer {
+    background-color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
